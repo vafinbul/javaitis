@@ -5,7 +5,7 @@ import ru.itis.springbootexample.model.Contact;
 
 import java.util.List;
 
-public interface ContactRepository extends CrudRepository<Contact, Long> {
-    Contact findById(Long id);
-    List<Contact> findAllByName(String name);
-}
+    public interface ContactRepository extends CrudRepository<Contact, Long> {
+        Contact findById(Long id);
+        List<Contact> findAllByName(String name);
+    }

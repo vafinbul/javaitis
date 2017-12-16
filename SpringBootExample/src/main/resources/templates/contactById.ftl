@@ -2,7 +2,6 @@
 <head>
     <meta charset="UTF-8">
     <title>Contact</title>
-    <link href="/css/contact.css" rel="stylesheet">
 </head>
 <body>
 <table cellspacing='0'> <!-- cellspacing='0' is important, must stay -->

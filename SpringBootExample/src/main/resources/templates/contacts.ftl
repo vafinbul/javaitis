@@ -2,16 +2,17 @@
 <head>
     <meta charset="UTF-8">
     <title>All contacts</title>
-    <link href="/css/style.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-<table>
+<table class="table">
     <tr>
         <th>id</th>
         <th>email</th>
         <th>name</th>
         <th>phone number</th>
     </tr>
+
     <#list contactList as contact>
     <tr>
         <td>${contact.id}</td>
