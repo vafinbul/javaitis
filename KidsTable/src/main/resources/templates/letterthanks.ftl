@@ -7,7 +7,7 @@
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
 
-    <title>Письмо Деду Морозу</title>
+    <title>Писмьо Деду Морозу</title>
 
     <!-- Bootstrap core CSS -->
     <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
@@ -18,7 +18,6 @@
 </head>
 
 <body>
-
 <div class="site-wrapper">
 
     <div class="site-wrapper-inner">
@@ -37,22 +36,7 @@
             </div>
 
             <div class="inner cover">
-                <h1 class="cover-heading">Тип письма</h1>
-                <p class="lead">Какого типа письмо вы хотите написать Деду Морозу?</p>
-                <p class="lead">
-                <form action = "/lettertype" method="post">
-                <div class="btn-group" data-toggle="buttons">
-                    <label class="btn btn-primary active">
-                        <input type="radio" name="type1" id="option1" autocomplete="off" value = "normal"> Обычное письмо </label>
-                    <label class="btn btn-primary">
-                        <input type="radio" name="type1" id="option2" autocomplete="off" value = "anger"> Гневное письмо </label>
-                    <label class="btn btn-primary">
-                        <input type="radio" name="type1" id="option3" autocomplete="off" value = "wish"> Пожелаения     </label>
-                </div>
-                <br>
-                <input type="submit">Написать
-            </form>
-                </p>
+                <h1>Спасибо за письмо!</h1>
             </div>
 
             <div class="mastfoot">

@@ -18,7 +18,6 @@
 </head>
 
 <body>
-${type}
 <div class="site-wrapper">
 
     <div class="site-wrapper-inner">
@@ -36,20 +35,22 @@ ${type}
                 </div>
             </div>
 
-            <div class="inner cover">
+            <form method="post"><div class="inner cover">
                 <h1 class="cover-heading">Тип письма</h1>
                 <p class="lead">Какого типа письмо вы хотите написать Деду Морозу?</p>
                 <p class="lead">
-                    <label for = email-field>Ваш email: </label><input type=text id=email-field><br>
+                    <label for = email>Ваш email: </label><input type=text id=email name="email"><br>
                     <br>
-                    <label for = age-field>Ваш возраст: </label><input type=text id=age-field><br>
+                    <label for = name>Ваше имя: </label><input type=text id=name name="name"><br>
                     <br>
-                    <label for = text-field>Тескт письма:</label><br>
-                    <textarea rows=7 cols = "200" placeholder="Пишите грамотно и понятно!" id=text-field></textarea><br>
+                    <label for = age>Ваш возраст: </label><input type=text id=age name="age"><br>
                     <br>
-                    <button type="button" class="btn btn-primary btn-lg">Написать</button>
+                    <label for = text>Тескт письма:</label><br>
+                    <textarea rows=7 cols = "200" placeholder="Пишите грамотно и понятно!" id=letter name="letterText"></textarea><br>
+                    <br>
+                    <input type="submit" >
                 </p>
-            </div>
+            </div></form>
 
             <div class="mastfoot">
                 <div class="inner">

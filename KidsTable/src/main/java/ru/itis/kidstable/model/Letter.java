@@ -7,23 +7,13 @@ import javax.persistence.Id;
 
 @Entity
 public class Letter {
-        @Id
-        @GeneratedValue(strategy= GenerationType.AUTO)
-        Long id;
-        String name;
-        String email;
-        String age;
-
-    @Override
-    public String toString() {
-        return "Letter{" +
-                "id=" + id +
-                ", name='" + name + '\'' +
-                ", text='" + text + '\'' +
-                '}';
-    }
-
-    String text;
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    Long id;
+    String name;
+    String email;
+    int age;
+    String letter;
 
     public void setId(Long id) {
         this.id = id;
@@ -33,8 +23,16 @@ public class Letter {
         this.name = name;
     }
 
-    public void setText(String text) {
-        this.text = text;
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public void setLetter(String letter) {
+        this.letter = letter;
     }
 
     public Long getId() {
@@ -45,7 +43,15 @@ public class Letter {
         return name;
     }
 
-    public String getText() {
-        return text;
+    public String getEmail() {
+        return email;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public String getLetter() {
+        return letter;
     }
 }

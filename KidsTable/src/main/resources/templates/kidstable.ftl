@@ -23,6 +23,7 @@
             <#if kids.emailExists?string('yes','no') == 'yes'>
                 <!-- НАДО ДОБАВИТЬ ССЫЛКУ НА ЛОГИКУ ПИСЬМА -->
                 <img src="/images/mail.png" width="35" height="35">
+                </a>
             </#if>
         </td>
     </tr>
